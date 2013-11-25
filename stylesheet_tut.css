@@ -174,22 +174,6 @@ body #navBar #links a:hover{
 	text-decoration:none;
 }
 
-/*
-#small {
-	display: table-cell;
-	white-space: nowrap;
-    text-align: center;
-	border-right: 1px solid #fff;
-	width: 16.666667px;
-}
-
-#large {
-	display: table-cell;
-	white-space: nowrap;
-    text-align: center;
-	border-right: 1px solid #fff;
-	width: 16.666667px;
-} */
 
 /* Back to top sticky button */
 body #backtotop{
