@@ -24,30 +24,17 @@
 		<a href="#top">Back to top</a>
 	</div>
 	
-	<div id="pg4" class="content">
+	<div id="pg1" class="content">
 		<h1>Getting Started</h1>
-		<p>Thank you for using Ohanae! 
+		<p1>Thank you for using Ohanae! 
 		<br/><br/>
 		Spend a few minutes going through this guide to learn 
-		some basics of Ohanae. We will introduce you to a 
-		number of useful functions that will help you use 
-		our product to its fullest. 
+		some basics of Ohanae to make the most of it. 
 		</br></br>
 		Before getting started, here are a few terms 
 		that will be used throughout this tutorial:
-		<br/></br>
-		Ohanae Account: 
-		Your account registered with Ohanae including a 
-		username and passphrase or password.
-		<br/><br/>
-		Private Files:
-		Your personal files with sensitive information. These
-		are stored in designated folders, or in ordinary folders 
-		in an encrypted form.
-		<br/><br/>
-		Secure Folder:
-		Designated folders and drive, in which all files are private.
-		</p>
+		<br/>	
+		</p1>
 		<ul>
 			<li>
 			Ohanae Account: 

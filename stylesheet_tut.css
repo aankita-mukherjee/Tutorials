@@ -92,6 +92,7 @@ body div{
 
 /* Headers */
 body h1 {
+	color: #95040b;
 	font-family: Quicksand Book;
 	font-size: 52.08px;
 	letter-space: -0.02em;
@@ -163,13 +164,14 @@ body div #links {
 body #navBar #links a  {
 	display: table-cell;
     text-align: center;
-	color: #ffffff;
+	color: #d9dade;
 	text-decoration:none;
 }
 
 
 body #navBar #links a:hover{
-	border-bottom:thick solid #ffffff;
+	color: #ffffff;
+	border-bottom:thick solid #95040b;
 	padding-bottom:22px;
 	text-decoration:none;
 }
