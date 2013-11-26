@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+/* CSS Document */
+body{
+	width:1000px;
+	margin:0px auto;
+	background-color:transparent;
+	top:0px;
+}
+
+@font-face{
+	font-family: YK;
+	src: url('/resources/fonts/yanonekaffeesatz-regular-webfont.woff'), url('/resources/fonts/yanonekaffeesatz-regular-webfont.eot'), url('/resources/fonts/yanonekaffeesatz-regular-webfont.ttf'), url('/resources/fonts/yanonekaffeesatz-regular-webfont.svg');
+}
+
+@font-face{
+	font-family: Quicksand Book;
+	src:url('/resources/fonts/Quicksand_Book-webfont.woff'), url('/resources/fonts/Quicksand_Book-webfont.eot'), url('/resources/fonts/Quicksand_Book-webfont.svg'),url('/resources/fonts/Quicksand_Book-webfont.ttf')
+	;
+}
+
+
+div{
+	display:inline-block;
+}
+
+.header{
+	float:left;
+	background-color: white;
+	background-size: contain;
+	background-repeat: repeat-x;
+	font-family: YK;
+	width: 1000px;
+	height: 132px;
+	max-width: 1920px;
+	font-size: 26.04px;
+	-webkit-box-shadow: 0 3px 7px rgba(0,0,0,.23);
+	-moz-box-shadow: 0 3px 7px rgba(0,0,0,.23);
+	box-shadow: 0 3px 7px rgba(0,0,0,.23);
+	position:relative;
+	
+}
+
+.header a{
+	transition-property : color; 
+  	transition-duration : 0.3s;
+}
+
+.header a:link, .header a:visited{
+	color:#686161;
+	text-decoration:none
+}
+
+.header a:hover, .header a:active{
+	color:#670100;
+	text-decoration:none;
+	background:transparent;
+}
+
+.header ul{
+	list-style-type:none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.header .logo{
+	background-size: contain;
+	width:279.1666px;
+	height:auto;
+	padding: 0 50px;
+	position:absolute;
+	bottom: 0px;
+	margin-bottom: 10px;
+}
+
+.header .navBar{
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: 10px;
+	right:0px;
+	margin-right: 235.354px;
+	padding-left: 5px;
+}
+
+.header #searchbox{
+	border: solid #898484 2px;
+	border-radius: 15.104px;
+	padding-right:15px;
+	width: 151.354px;
+	height: 30.208px;
+	font-size:26.04px;
+	color: #686161;
+	text-align:right;
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: 10px;
+	margin-right: 50px;
+	float:right;
+	right: 0px;
+	font-family: YK;
+	background-color:transparent;
+	outline:none;
+}
+
+.header ul li{
+	display:block;
+	position:relative;
+	float:left;
+	margin: 0px 5px 0px 5px;
+}
+
+.header li ul {
+    display: none;
+}
+.header ul li a {
+    display: block;
+    white-space: nowrap;
+}
+
+.header li:hover ul {
+    display: block;
+    position: absolute;
+}
+.header li:hover li {
+    float: left;
+    font-size: 21.7px;
+	line-height: 21.7px;
+	margin-left: 0px;
+}
+	
+.header #menu{
+	display:inline;
+	float:left;
+}
+
+.header .products{
+	-webkit-box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	-moz-box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	background-color:white;
+	width: 160px;
+	height: 73px;
+	padding-left:15px;
+	padding-top: 15px;
+	left: -15px;
+}
+
+.header .comp{
+	-webkit-box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	-moz-box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	background-color:white;
+	width: 142px;
+	height: 113px;
+	padding-left:15px;
+	padding-top: 15px;
+	left: -15px;
+}
+
+.header .faq{
+	-webkit-box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	-moz-box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	background-color:white;
+	width: 80px;
+	height: 53px;
+	padding-left:15px;
+	padding-top: 15px;
+	left: -15px;
+}
+
+.header .download{
+	-webkit-box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	-moz-box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	box-shadow: 3px 4px 4px rgba(0,0,0,.42);
+	background-color:white;
+	width: 140px;
+	height: 73px;
+	padding-left:15px;
+	padding-top: 15px;
+	left: -15px;
+}
+
+.header .login{
+	position:absolute;
+	right:0px;
+	margin-right: 60px;
+	bottom: 50px;
+}
+
+.header .login a{
+	color:#bf2e1a;
+	text-decoration:none;
+}
+
+.header .login a:hover{
+	color:#686161;
+	text-decoration:none;;
+}
+
+.header superscript{
+	font-size:60%;
+	position:absolute;
+}
+
+/*Login button*/
+
+.header span .choice, .header span:hover span{
+	display:none;
+}
+
+.header span:hover .choice{
+	display:inline;
+	text-align:center;
+}

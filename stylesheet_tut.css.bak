@@ -42,7 +42,7 @@ a:active{
 body #pg1{
 	background-color:#d9dade;
 	width: 900px;
-	height:484.1628000000001px;
+	height:484px;
 	clear:both;
 }
 
@@ -77,6 +77,15 @@ body #pg3{
 	
 }
 
+body #pg3 p1 {
+	color: #e8b414;
+	align: right;
+}
+
+body #pg3  p2 {
+	color: #ffffff;
+}
+
 body #pg4{
 	background-color:#d9dade;
 	width: 900px;
@@ -99,10 +108,13 @@ body h1 {
 }
 
 body h2 {
+	color: #e8b414;
 	font-family: Quicksand Book;
 	font-size: 43.4px;
 	line-height: 32.55px;
 	letter-space: -0.04em;
+	text-decoration: none;
+	
 }
 
 body h3 {
@@ -164,14 +176,13 @@ body div #links {
 body #navBar #links a  {
 	display: table-cell;
     text-align: center;
-	color: #ffffff;
+	color: #d9dade;
 	text-decoration:none;
 }
 
-
 body #navBar #links a:hover{
-	color: #d9dade;
-	border-bottom:thick solid #95040b;
+	color: #ffffff;
+	border-bottom:thick solid #ffffff;
 	padding-bottom:22px;
 	text-decoration:none;
 }

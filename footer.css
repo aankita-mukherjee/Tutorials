@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* CSS Document */
+body{
+	width:1000px;
+	margin:0px auto;
+	top:0px;
+}
+
+@font-face{
+	font-family: YK;
+	src: url('/resources/fonts/yanonekaffeesatz-regular-webfont.woff'), url('/resources/fonts/yanonekaffeesatz-regular-webfont.eot'), url('/resources/fonts/yanonekaffeesatz-regular-webfont.ttf'), url('/resources/fonts/yanonekaffeesatz-regular-webfont.svg');
+}
+
+@font-face{
+	font-family: Quicksand Book;
+	src:url('/resources/fonts/Quicksand_Book-webfont.woff'), url('/resources/fonts/Quicksand_Book-webfont.eot'), url('/resources/fonts/Quicksand_Book-webfont.svg'),url('/resources/fonts/Quicksand_Book-webfont.ttf')
+	;
+}
+
+
+.footer{
+	background-color: white;
+	font-family: YK;
+	width: 1000px;
+	height: 402px;
+	font-size: 21.7px;
+	line-height:19.53px;
+	position:relative;
+	-webkit-box-shadow: 0 -3px 21px rgba(0,0,0,.22);
+	-moz-box-shadow: 0 -3px 21px rgba(0,0,0,.22);
+	box-shadow: 0 -3px 21px rgba(0,0,0,.22);
+	text-align:center;
+}
+
+.footer a{
+	transition-property : color; 
+  	transition-duration : 0.3s;
+}
+
+.footer a:link, .footer a:visited{
+	color:#686161;
+	text-decoration:none
+}
+
+.footer a:hover, .footer a:active{
+	color:#670100;
+	text-decoration:none;
+	background:transparent;
+}
+
+.footer .logo2{
+	background-size: contain;
+	width:218px;
+	height:auto;
+	position: absolute;
+	margin-top:51px;
+	padding-left:92px;
+	left:0px;
+}
+
+.footer .big{
+	font-size: 26.04px;
+	line-height: 19.53px;
+	color:#670100;
+}
+
+.footer #contact{
+	margin-top: 80px;
+	position: absolute;
+	padding-left: 92px;
+	text-align: left;
+}
+
+.footer #end{
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+	padding-bottom:106px;
+	text-align:center;
+	clear:both;
+	width: auto;
+	margin: 0 auto;
+}

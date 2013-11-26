@@ -18,23 +18,30 @@
 	</head>
 
 <body>
-
+<!--
+TODO:
+1. Make sure the light grey part is 1000*484.
+2. How to do the Back to top visible only when top is not visible.
+-->
 	<a id="top"></a>
 	<div id="backtotop">
-		<a href="#top">Back to top</a>
+		<a href="#top"><img src="/resources/images/backtotop(50).png" style="width:50px"></a>
 	</div>
+	
+	<?php include $path.'/common/header.php'; ?>
 	
 	<div id="pg1" class="content">
 		<h1>Getting Started</h1>
-		<p>Thank you for using Ohanae! 
+		<p2>Thank you for using Ohanae! 
 		<br/><br/>
 		Spend a few minutes going through this guide to learn 
 		some basics of Ohanae to make the most of it. 
 		</br></br>
 		Before getting started, here are a few terms 
 		that will be used throughout this tutorial:
-		<br/>	
-		</p>
+		<br/></br/>
+		</p2>
+		<p3>
 		<ul>
 			<li>
 			Ohanae Account: 
@@ -83,6 +90,7 @@
 			</br>
 			</li>		-->
 		</ul>
+		</p3>
 	</div>
 
 	<div id="navBar">
@@ -96,6 +104,60 @@
 		</div>
 	</div>	
 	
+	<div id="pg3" class="content">
+		<h2>Features</h2>
+		
+		<table cellpadding="20" cellspacing="10">
+			<tr>
+				<td><p1>1-Tap Login</p1><br>
+					<p2>1-Tap Login allows you to log into multiple accounts for different services only through 1 click. Ohanae manages all your passwords. You simply need to select your username.</p2>
+			<!--		<p2>
+					<ul>
+						<li>1 click login only, simply select your username</li>
+						<li>Generates and manages complex passwords for your security</li>
+						<li>Unique password for multiple accounts</li>
+					</ul>
+					</p2> -->
+				</td>
+			
+			<td>
+				<p1>Secure Drive</p1> <br>
+				<p2>Ohanae Secure Drive enables you to conveniently store data while protecting you from security threats. It encrypts and stores your data locally as well as on the cloud.</p2>
+			</td>
+			
+			</tr>
+			
+			<tr>
+			<td><p1>Secure Workplace<p1><br>
+					<p2>Ohanae Secure Workplace ensures your secure information is not compromised. It enables you to work conveniently with your files, while ensuring that you do not leave work file with sensitive information unencrypted on a device. </p2>
 
+			<!--	<p2>
+				<ul>
+					<li>Ensures secure information is not compromised</li>
+					<li>Work conveniently with your files</li>
+					<li> No fear of leaving sensitive information unencrypted on a public device</li>
+				</ul>
+				</p2>	-->
+			</td>
+			<td><p1>Secure File Sharing<p1><br>
+					<p2>Ohanae enables you to provide access to specific people to be able to read your encrypted files when you share with them. A Secure File Sharing Client, or an online portal is available to manage access control for encrypted files and folders.</p2>
+			</td>
+			</tr>
+		</table>
+	<!--	
+		<p1>1-Tap Login</p1>
+		<p2>1-Tap Login allows you to log into multiple accounts for different services only through 1 click. Ohanae manages all your passwords. You simply need to select your username.</p2>
+		<br><br>
+		<p1>Secure Workplace</p1>
+		<p2>Ohanae Secure Workplace ensures your secure information is not compromised. Secure Workplace enables you to work conveniently with your files, while ensuring that you do not leave work file with sensitive information unencrypted on a device. </p2>
+		<br><br>
+		<p1>Secure Drive</p1>
+		<p2>Ohanae Secure Drive enables you to coveniently store data while protecting you from security threats to private data. It encrypts and stores your data locally as well as on the cloud.</p2>
+		<br><br>
+		<p1>Secure File Sharing</p1>
+		<p2>Ohanae enables you to provide access to specific people to be able to read your encrypted files when you share with them. A Secure File Sharing Client, or an online portal is available to manage access control for encrypted files and folders.</p2>
+	-->	
+	</div>
+	<?php include $path.'/common/footer.php'; ?>
 </body>
 </html>
